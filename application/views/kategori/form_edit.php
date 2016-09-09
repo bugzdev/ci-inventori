@@ -4,6 +4,8 @@
 echo form_open('kategori/edit');
 ?>
 
+<input type="hidden" value="<?php $record['kategori_id'] ?>" name="id">
+
 <table border="1">
   <tr>
     <td>Nama Kategori</td>
